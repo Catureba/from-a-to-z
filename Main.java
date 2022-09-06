@@ -8,7 +8,7 @@ class Main {
   
   System.out.println("type a letter:");
   
-  letter = sc.next().charAt(0); //letter receives the imput 
+  letter = sc.next().charAt(0); //letter receives the input 
   letter = Character.toLowerCase(letter); //data processing
     
   for(letter++; letter<=122 ; letter++){ //magic with the ASCII table
